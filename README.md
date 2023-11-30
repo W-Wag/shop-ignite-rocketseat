@@ -1,34 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Shop da Trilha Ignite React
 
-## Getting Started
+Esse projeto foi feito durante o período de um teste gratuito de 7 dias oferecido pela instituição educacional [Rocketseat](https://rocketseat.com.br). Esse projeto foi um excelente aprendizado sobre os fundamentos do Next.js, com ele foi abordado conceitos sobre SSR (Server Side Rendering), SSG (Static Side Generation), file-system routing, Image optimization, getStaticProps, getServerSideProps, getStaticPaths entre vários outros conceitos do Next que ajudam a entender essa poderosa ferramenta que é o Next.js.
 
-First, run the development server:
+Nesse projeto, compreende-se que se deve usar o SSR ou SSG dependendo da situação em que se quer aplicar tais conceitos. É preciso escolher sabiamente a hora de se usar tanto o SSR quanto o SSG como a forma mais comum de estados do React. Também é de importante ressalva como funciona o comportamento do SSG utilizando de parâmetros com a utilização do getStaticPaths, sendo de importante conhecimento como utilizar os atributos `paths` e `fallback`.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Também foi usado o [Stripe](https://dashboard.stripe.com), uma solução de pagamentos que fornece uma API para integrar projetos com a necessidade de se utilizar de pagamentos. Com ele foi possível enxergar com completude os benefícios de se utilizar o Next.js.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para o CSS foi utilizado o [Stitches](https://stitches.dev/), uma biblioteca CSS in JS para administrar os estilos na aplicação. Foi escolhida essa biblioteca, pois ela contém uma função `getCssText` que se utiliza para que o CSS seja carregado junto com a inicialização da página, perfeito para páginas estáticas que utilizam do SSG. Assim, mesmo removendo o JavaScript da página, o CSS continuará a aparecer.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Mas o fundamento principal que o Next.js traz é o auxílio na indexação do site, facilitando para os bots de indexação, como os da Google e de vários meios, poderem indexar o site mais habilmente, sem os problemas que o SPA (Single Page Application) tem com o indexamento.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Imagens do Projeto
+![image](https://github.com/W-Wag/shop-ignite-rocketseat/assets/108705985/fdb2d41e-a13f-45f6-8e62-67008f96d79b)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![image](https://github.com/W-Wag/shop-ignite-rocketseat/assets/108705985/bd13888f-fdcf-4aa0-9e23-f35be40ba0b0)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://github.com/W-Wag/shop-ignite-rocketseat/assets/108705985/29cbbd82-7b76-4bf1-881b-e60c27b57795)
